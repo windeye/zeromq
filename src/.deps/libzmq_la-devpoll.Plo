@@ -1,0 +1,203 @@
+libzmq_la-devpoll.lo: devpoll.cpp devpoll.hpp poller.hpp platform.hpp \
+ epoll.hpp /usr/local/include/c++/4.8.1/vector \
+ /usr/local/include/c++/4.8.1/bits/stl_algobase.h \
+ /usr/local/include/c++/4.8.1/x86_64-unknown-linux-gnu/bits/c++config.h \
+ /usr/local/include/c++/4.8.1/x86_64-unknown-linux-gnu/bits/os_defines.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /usr/local/include/c++/4.8.1/x86_64-unknown-linux-gnu/bits/cpu_defines.h \
+ /usr/local/include/c++/4.8.1/bits/functexcept.h \
+ /usr/local/include/c++/4.8.1/bits/exception_defines.h \
+ /usr/local/include/c++/4.8.1/bits/cpp_type_traits.h \
+ /usr/local/include/c++/4.8.1/ext/type_traits.h \
+ /usr/local/include/c++/4.8.1/ext/numeric_traits.h \
+ /usr/local/include/c++/4.8.1/bits/stl_pair.h \
+ /usr/local/include/c++/4.8.1/bits/move.h \
+ /usr/local/include/c++/4.8.1/bits/concept_check.h \
+ /usr/local/include/c++/4.8.1/bits/stl_iterator_base_types.h \
+ /usr/local/include/c++/4.8.1/bits/stl_iterator_base_funcs.h \
+ /usr/local/include/c++/4.8.1/debug/debug.h \
+ /usr/local/include/c++/4.8.1/bits/stl_iterator.h \
+ /usr/local/include/c++/4.8.1/bits/allocator.h \
+ /usr/local/include/c++/4.8.1/x86_64-unknown-linux-gnu/bits/c++allocator.h \
+ /usr/local/include/c++/4.8.1/ext/new_allocator.h \
+ /usr/local/include/c++/4.8.1/new /usr/local/include/c++/4.8.1/exception \
+ /usr/local/include/c++/4.8.1/bits/atomic_lockfree_defines.h \
+ /usr/local/include/c++/4.8.1/bits/memoryfwd.h \
+ /usr/local/include/c++/4.8.1/bits/stl_construct.h \
+ /usr/local/include/c++/4.8.1/ext/alloc_traits.h \
+ /usr/local/include/c++/4.8.1/bits/stl_uninitialized.h \
+ /usr/local/include/c++/4.8.1/bits/stl_vector.h \
+ /usr/local/include/c++/4.8.1/bits/stl_bvector.h \
+ /usr/local/include/c++/4.8.1/bits/range_access.h \
+ /usr/local/include/c++/4.8.1/bits/vector.tcc /usr/include/sys/epoll.h \
+ /usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/sys/types.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/time.h \
+ /usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stddef.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h fd.hpp thread.hpp \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/xlocale.h /usr/include/bits/setjmp.h poller_base.hpp \
+ /usr/local/include/c++/4.8.1/map \
+ /usr/local/include/c++/4.8.1/bits/stl_tree.h \
+ /usr/local/include/c++/4.8.1/bits/stl_function.h \
+ /usr/local/include/c++/4.8.1/backward/binders.h \
+ /usr/local/include/c++/4.8.1/bits/stl_map.h \
+ /usr/local/include/c++/4.8.1/bits/stl_multimap.h clock.hpp stdint.hpp \
+ atomic_counter.hpp
+
+devpoll.hpp:
+
+poller.hpp:
+
+platform.hpp:
+
+epoll.hpp:
+
+/usr/local/include/c++/4.8.1/vector:
+
+/usr/local/include/c++/4.8.1/bits/stl_algobase.h:
+
+/usr/local/include/c++/4.8.1/x86_64-unknown-linux-gnu/bits/c++config.h:
+
+/usr/local/include/c++/4.8.1/x86_64-unknown-linux-gnu/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/local/include/c++/4.8.1/x86_64-unknown-linux-gnu/bits/cpu_defines.h:
+
+/usr/local/include/c++/4.8.1/bits/functexcept.h:
+
+/usr/local/include/c++/4.8.1/bits/exception_defines.h:
+
+/usr/local/include/c++/4.8.1/bits/cpp_type_traits.h:
+
+/usr/local/include/c++/4.8.1/ext/type_traits.h:
+
+/usr/local/include/c++/4.8.1/ext/numeric_traits.h:
+
+/usr/local/include/c++/4.8.1/bits/stl_pair.h:
+
+/usr/local/include/c++/4.8.1/bits/move.h:
+
+/usr/local/include/c++/4.8.1/bits/concept_check.h:
+
+/usr/local/include/c++/4.8.1/bits/stl_iterator_base_types.h:
+
+/usr/local/include/c++/4.8.1/bits/stl_iterator_base_funcs.h:
+
+/usr/local/include/c++/4.8.1/debug/debug.h:
+
+/usr/local/include/c++/4.8.1/bits/stl_iterator.h:
+
+/usr/local/include/c++/4.8.1/bits/allocator.h:
+
+/usr/local/include/c++/4.8.1/x86_64-unknown-linux-gnu/bits/c++allocator.h:
+
+/usr/local/include/c++/4.8.1/ext/new_allocator.h:
+
+/usr/local/include/c++/4.8.1/new:
+
+/usr/local/include/c++/4.8.1/exception:
+
+/usr/local/include/c++/4.8.1/bits/atomic_lockfree_defines.h:
+
+/usr/local/include/c++/4.8.1/bits/memoryfwd.h:
+
+/usr/local/include/c++/4.8.1/bits/stl_construct.h:
+
+/usr/local/include/c++/4.8.1/ext/alloc_traits.h:
+
+/usr/local/include/c++/4.8.1/bits/stl_uninitialized.h:
+
+/usr/local/include/c++/4.8.1/bits/stl_vector.h:
+
+/usr/local/include/c++/4.8.1/bits/stl_bvector.h:
+
+/usr/local/include/c++/4.8.1/bits/range_access.h:
+
+/usr/local/include/c++/4.8.1/bits/vector.tcc:
+
+/usr/include/sys/epoll.h:
+
+/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stddef.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+fd.hpp:
+
+thread.hpp:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/bits/setjmp.h:
+
+poller_base.hpp:
+
+/usr/local/include/c++/4.8.1/map:
+
+/usr/local/include/c++/4.8.1/bits/stl_tree.h:
+
+/usr/local/include/c++/4.8.1/bits/stl_function.h:
+
+/usr/local/include/c++/4.8.1/backward/binders.h:
+
+/usr/local/include/c++/4.8.1/bits/stl_map.h:
+
+/usr/local/include/c++/4.8.1/bits/stl_multimap.h:
+
+clock.hpp:
+
+stdint.hpp:
+
+atomic_counter.hpp:
